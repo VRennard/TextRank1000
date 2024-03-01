@@ -128,7 +128,7 @@ def extract_key_phrases(text):
     return modified_key_phrases
 
 
-def extract_sentences(text, summary_length=1000, clean_sentences=False, language='english'):
+def extract_sentences(text, summary_length=1900, clean_sentences=False, language='english'):
     """Return a paragraph formatted summary of the source text.
 
     :param text: A string.
